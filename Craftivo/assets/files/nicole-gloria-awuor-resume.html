@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Resume of Nicole Gloria Awuor, Security Analyst and SOC Analyst candidate in Nairobi, Kenya.">
+  <title>Nicole Gloria Awuor | Resume</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --navy: #102747;
+      --gold: #b78e3b;
+      --ink: #253247;
+      --muted: #566477;
+      --line: #d7dee7;
+    }
+
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: #edf1f5;
+      color: var(--ink);
+      font-family: "Segoe UI", Arial, sans-serif;
+      font-size: 10.5pt;
+      line-height: 1.48;
+    }
+
+    .screen-actions {
+      display: flex;
+      justify-content: center;
+      gap: 12px;
+      padding: 18px;
+    }
+
+    .screen-actions a,
+    .screen-actions button {
+      border: 1px solid var(--navy);
+      border-radius: 3px;
+      padding: 10px 16px;
+      background: var(--navy);
+      color: #fff;
+      font: inherit;
+      font-weight: 700;
+      text-decoration: none;
+      cursor: pointer;
+    }
+
+    .screen-actions button { background: var(--gold); border-color: var(--gold); color: #17243a; }
+
+    .resume-document {
+      width: min(210mm, calc(100% - 32px));
+      margin: 0 auto 32px;
+      padding: 17mm 18mm;
+      background: #fff;
+      box-shadow: 0 8px 32px rgba(16, 39, 71, 0.12);
+    }
+
+    header {
+      padding-bottom: 16px;
+      border-bottom: 3px solid var(--gold);
+    }
+
+    h1 {
+      margin: 0;
+      color: var(--navy);
+      font-size: 27pt;
+      line-height: 1.1;
+      letter-spacing: 0;
+    }
+
+    .headline {
+      margin: 7px 0 8px;
+      color: var(--gold);
+      font-size: 12pt;
+      font-weight: 700;
+    }
+
+    .contact-line { margin: 0; color: var(--muted); font-size: 9.5pt; }
+    a { color: inherit; }
+
+    section { margin-top: 16px; }
+    h2 {
+      margin: 0 0 7px;
+      padding-bottom: 4px;
+      border-bottom: 1px solid var(--line);
+      color: var(--navy);
+      font-size: 11pt;
+      letter-spacing: 0.5px;
+      text-transform: uppercase;
+    }
+
+    p { margin: 0 0 6px; }
+    .skills-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 5px 18px; }
+    .skill-group { margin: 0; }
+    .skill-group strong { color: var(--navy); }
+    .entry-heading { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 4px 16px; }
+    .entry-heading strong { color: var(--navy); }
+    .entry-subtitle { color: var(--muted); font-style: italic; }
+    ul { margin: 6px 0 0; padding-left: 18px; }
+    li { margin: 0 0 4px; padding-left: 2px; }
+    li::marker { color: var(--gold); }
+    .project { margin: 0 0 8px; }
+    .project strong { color: var(--navy); }
+    .interests { color: var(--muted); }
+
+    @media (max-width: 600px) {
+      .resume-document { width: calc(100% - 20px); padding: 24px 20px; }
+      .skills-grid { grid-template-columns: 1fr; }
+      .entry-heading { display: block; }
+    }
+
+    @page { size: A4; margin: 14mm; }
+
+    @media print {
+      body { background: #fff; font-size: 9.5pt; }
+      .screen-actions { display: none; }
+      .resume-document { width: auto; margin: 0; padding: 0; box-shadow: none; }
+      section { margin-top: 12px; }
+      h2, .entry-heading, .project { break-after: avoid; }
+      a { text-decoration: none; }
+    }
+  </style>
+</head>
+<body>
+  <nav class="screen-actions" aria-label="Resume actions">
+    <a href="../../index.html">Portfolio</a>
+    <button type="button" onclick="window.print()">Print / Save as PDF</button>
+  </nav>
+
+  <main class="resume-document">
+    <header>
+      <h1>NICOLE GLORIA AWUOR</h1>
+      <p class="headline">Security Analyst | SOC Analyst | Cybersecurity</p>
+      <p class="contact-line">Nairobi, Kenya &nbsp;|&nbsp; <a href="tel:+254758196122">0758196122</a> &nbsp;|&nbsp; <a href="mailto:nicoleawour57@gmail.com">nicoleawour57@gmail.com</a></p>
+    </header>
+
+    <section>
+      <h2>Professional Summary</h2>
+      <p>Security Analyst candidate and Bachelor of Business Information Technology (BBIT) student at KCA University, trained in cybersecurity, network security, vulnerability assessment, threat detection, and security monitoring through CyberShujaa, Hack The Box, and TryHackMe. Hands-on experience with Nmap network scanning, Gobuster web enumeration, Linux, and Capture The Flag (CTF) challenges, plus web and Android development in PHP, MySQL, and Java. Skilled in analysis, documentation, and communication. Seeking a Security Analyst or SOC Analyst internship or attachment to support incident response, log analysis, and risk assessment in a Security Operations Center.</p>
+    </section>
+
+    <section>
+      <h2>Technical Skills</h2>
+      <div class="skills-grid">
+        <p class="skill-group"><strong>Security Operations:</strong> Security Monitoring, Threat Detection, Threat Analysis, Incident Response, Log Analysis, SOC, SIEM Concepts</p>
+        <p class="skill-group"><strong>Vulnerability and Risk:</strong> Vulnerability Assessment, Vulnerability Scanning, Risk Assessment, Reconnaissance, Penetration Testing Fundamentals</p>
+        <p class="skill-group"><strong>Network Security:</strong> Network Scanning, TCP/IP, Ports and Protocols, Firewalls, Network Security Fundamentals</p>
+        <p class="skill-group"><strong>Tools and Platforms:</strong> Nmap, Gobuster, Linux, Command Line, Hack The Box, TryHackMe, CyberShujaa</p>
+        <p class="skill-group"><strong>Frameworks and Standards:</strong> OWASP Top 10, MITRE ATT&amp;CK, CIA Triad, Cybersecurity Fundamentals</p>
+        <p class="skill-group"><strong>Development:</strong> PHP, MySQL, SQL, Java, XML, HTML, CSS, JavaScript, Android Application Development</p>
+        <p class="skill-group"><strong>Business and Professional:</strong> Microsoft Word, Excel, PowerPoint, Technical Documentation, Reporting, Analytical Thinking, Problem-Solving, Communication, Teamwork, Time Management</p>
+      </div>
+    </section>
+
+    <section>
+      <h2>Cybersecurity Experience and Training</h2>
+      <div class="entry-heading"><strong>Cybersecurity Labs and CTF Practice</strong><span>CyberShujaa | Hack The Box | TryHackMe</span></div>
+      <ul>
+        <li>Performed network scanning with Nmap in lab environments to identify open ports and services, supporting vulnerability assessment and reconnaissance.</li>
+        <li>Used Gobuster for web directory enumeration to find exposed files and directories and assess web application security.</li>
+        <li>Applied Linux command-line skills for security analysis; authored a Linux fundamentals guide documenting security tools and commands.</li>
+        <li>Solved CTF and security challenges to build threat detection, analysis, and incident response skills for SOC work.</li>
+        <li>Documented findings in lab write-ups on a personal cybersecurity portfolio, practising clear security reporting.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Education</h2>
+      <div class="entry-heading"><strong>Bachelor of Business Information Technology (BBIT)</strong><span>Currently pursuing</span></div>
+      <p class="entry-subtitle">KCA University | Nairobi, Kenya</p>
+      <p>Focus: Information Systems, Cybersecurity, Information Technology, Data and AI</p>
+    </section>
+
+    <section>
+      <h2>Projects</h2>
+      <p class="project"><strong>Nicah Beauty Parlour Online Booking System | PHP, MySQL</strong><br>Built an online booking system with a MySQL database to manage customer appointments.</p>
+      <p class="project"><strong>Student Profile Android Application | Java, XML</strong><br>Developed an Android application in Java and XML for creating and viewing student profiles.</p>
+      <p class="project"><strong>Cybersecurity Portfolio Website | HTML, CSS, JavaScript</strong><br>Built a responsive portfolio showcasing security lab challenges (Nmap, Gobuster, Linux), projects, and resume.</p>
+    </section>
+
+    <section>
+      <h2>Interests</h2>
+      <p class="interests">Cybersecurity and Security Analysis | Information Technology | Data and AI | Entrepreneurship</p>
+    </section>
+  </main>
+</body>
+</html>
